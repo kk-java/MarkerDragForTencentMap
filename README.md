@@ -2,7 +2,7 @@
 现在通过一种方法来实现：拖曳覆盖物，并且展示拖曳位置的地理信息
 ===================
 
-## The effect (gif)
+## 效果图 (gif图比较大，请耐心等待)
 ![Screenshot](https://github.com/kk-java/MarkerDragForTencentMap/raw/master/intro.gif)
 
 
