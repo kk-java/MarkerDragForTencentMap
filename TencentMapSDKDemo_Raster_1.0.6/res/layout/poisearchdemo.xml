@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+       
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        <EditText
+            android:id="@+id/txtKeyword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="银行"
+            android:layout_weight="1"
+            android:hint="请输入查询关键字" >
+        </EditText>
+        
+         <Button
+            android:id="@+id/btnPoiSearch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="poi搜索" >
+        </Button>
+    </LinearLayout>
+
+    <com.tencent.tencentmap.mapsdk.map.MapView
+        android:id="@+id/mapviewpoisearch"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+</LinearLayout>

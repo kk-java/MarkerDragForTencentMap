@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/tipinfo"
+    android:layout_marginLeft="50dip"
+    android:layout_marginRight="50dip"
+    android:paddingTop="10sp"
+    android:paddingBottom="20sp"
+    android:paddingLeft="10sp"
+    android:paddingRight="10sp"
+    android:orientation="vertical" >
+    <TextView
+        android:id="@+id/txtViewSelectTile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FF0000"
+        android:visibility="gone"
+        android:text="点中这个标注了" />
+     <TextView
+        android:id="@+id/txtViewSelectSub"
+        android:layout_width="wrap_content"
+        android:maxWidth="200dip"
+        android:layout_height="wrap_content"
+        android:textColor="#FF0000"
+        android:text="长按住标注可以拖动编辑坐标" />
+
+</LinearLayout>

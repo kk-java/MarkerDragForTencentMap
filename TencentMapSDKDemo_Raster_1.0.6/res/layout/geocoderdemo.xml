@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        <EditText
+            android:id="@+id/txtgeocoder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="北京银科大厦"
+            android:layout_weight="1"
+            android:hint="请输入地理编码查询关键字" >
+        </EditText>
+        
+         <Button
+            android:id="@+id/btnGeocoder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="geocoder查询" >
+        </Button>
+    </LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+       
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        <EditText
+            android:id="@+id/txtregeocoder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="39.984297,116.307523"
+            android:layout_weight="1"
+            android:hint="请输入逆地理编码查询关键字" >
+        </EditText>
+        
+         <Button
+            android:id="@+id/btnRegeocoder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="regeocoder查询" >
+        </Button>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/txtgeocoderresult"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:editable="false" />
+
+</LinearLayout>

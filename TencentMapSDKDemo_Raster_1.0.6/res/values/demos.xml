@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string-array name="demo_activitys">
+<item>TencentMapDemo</item>
+<item>ItemizedOverlayDemo</item>
+<item>PoiSearchDemo</item>
+<item>RouteSearchDemo</item>
+<item>GeoCoderDemo</item>
+<item>OverlayDemo</item>
+</string-array>
+</resources> 
